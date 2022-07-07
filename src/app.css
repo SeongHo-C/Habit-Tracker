@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: darkcyan;
+  padding: 1rem;
+  font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-logo {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-name {
+  margin-left: 0.2em;
+  margin-right: 0.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-count {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background-color: darkolivegreen;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.add-form {
+  padding: 1rem;
+}
+
+.add-input {
+  font-size: 2rem;
+  margin-right: 0.2rem;
+}
+
+.add-button {
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  margin-left: 0.2em;
+  background-color: darkolivegreen;
+  color: white;
+  cursor: pointer;
+  border: 0;
+}
+
+.add-button:hover {
+  opacity: 0.8;
+}
+
+.habit-name {
+  display: inline-block;
+  width: 12rem;
+}
+
+.habit {
+  font-size: 2.5rem;
+  padding: 0.5em;
+  list-style: none;
+}
+
+.habit-count {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background-color: darkseagreen;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+}
+.habit-button {
+  font-size: 2.5rem;
+  background-color: transparent;
+  margin: 0 0.1em;
+  border: 0;
+}
+.habit-button:hover {
+  opacity: 0.8;
+}
+.habit-increase,
+.habit-decrease {
+  color: darkcyan;
+}
+.habit-trash {
+  color: darkslategrey;
 }
