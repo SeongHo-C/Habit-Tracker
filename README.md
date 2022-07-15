@@ -13,7 +13,10 @@ Class Component를 기반으로 하여 React의 전반적인 흐름을 이해하
 > VS Code
 
 ## 📝 What I learned?
-
+- State
+- Props
+- LifeCycle
+- Component
 ## 🎥 Result(Netlify)
 <img src="https://user-images.githubusercontent.com/83394485/178454230-972d5139-f3db-4901-b297-e3c77ff203e9.png" height="400" width="400" />
 
